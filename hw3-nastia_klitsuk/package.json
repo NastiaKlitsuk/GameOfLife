@@ -1,0 +1,22 @@
+{
+  "name": "hw3-nastia_klitsuk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js --out-dir build",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.5.4"
+  },
+  "dependencies": {
+    "es6-event-emitter": "^1.9.0"
+  }
+}

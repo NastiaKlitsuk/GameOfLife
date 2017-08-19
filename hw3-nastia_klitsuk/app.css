@@ -1,0 +1,41 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.wrapper
+{
+  width: 650px;
+  margin: 10px auto;
+  background-color: white;
+}
+
+.header
+{
+  width: 600px;
+  margin: auto;
+}
+
+.control-wrapper
+{
+  display: inline-block;
+  width: 400px;
+  margin-left: 150px;
+}
+
+.div-table-row
+{
+  display: table-row;
+  height: 20px;
+  clear: both;
+}
+
+.div-table-col
+{
+  float: left;
+  display: table-column;         
+  width: 20px;    
+  height: 20px;    
+  border: solid 1px black; 
+}
